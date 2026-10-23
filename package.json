@@ -4,11 +4,6 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview"
-  },
-  "dependencies": {
-    "@vercel/analytics": "^2.0.1"
+    "build": "node build.mjs"
   }
 }

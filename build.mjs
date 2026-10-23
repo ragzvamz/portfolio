@@ -126,7 +126,6 @@ ${body}
 </footer>
 <script src="/assets/site.js" defer></script>
 <script defer src="/_vercel/insights/script.js"></script>
-<script defer src="https://cdn.vercel-insights.com/v1/script.js"></script>
 </body>
 </html>`;
 }
