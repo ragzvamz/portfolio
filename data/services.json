@@ -5,24 +5,56 @@
       "audience": "Hiring managers & recruiters",
       "summary": "End-to-end product leadership, from long-term vision to a platform running at scale.",
       "services": [
-        { "name": "Product planning", "detail": "Including setting the long-term product vision." },
-        { "name": "Product roadmap", "detail": "Quarterly and yearly roadmaps." },
-        { "name": "Product strategy", "detail": "Tactical and strategic." },
-        { "name": "Product development", "detail": "Working with leadership and product teams." },
-        { "name": "Product deployment", "detail": "Including platform scaling." },
-        { "name": "Platform integration", "detail": "With other data platforms." }
+        {
+          "name": "Product planning",
+          "detail": "Including setting the long-term product vision."
+        },
+        {
+          "name": "Product roadmap",
+          "detail": "Quarterly and yearly roadmaps."
+        },
+        {
+          "name": "Product strategy",
+          "detail": "Tactical and strategic."
+        },
+        {
+          "name": "Product development",
+          "detail": "Working with leadership and product teams."
+        },
+        {
+          "name": "Product deployment",
+          "detail": "Including platform scaling."
+        },
+        {
+          "name": "Platform integration",
+          "detail": "With other data platforms."
+        }
       ]
     },
     {
       "audience": "Leaders exploring AI adoption",
       "summary": "Research, analysis and hands-on validation to decide where AI fits and make it work.",
       "services": [
-        { "name": "Business analysis", "detail": "" },
-        { "name": "Sector analysis", "detail": "" },
-        { "name": "Market research", "detail": "" },
-        { "name": "Financial research", "detail": "" },
-        { "name": "System testing", "detail": "" },
-        { "name": "User experience design", "detail": "" }
+        {
+          "name": "Sector analysis",
+          "detail": "Analyze the broader macro environment in which your company operates"
+        },
+        {
+          "name": "Business analysis",
+          "detail": "Understand how your company adds value to your customers"
+        },
+        {
+          "name": "Use-Case formulation",
+          "detail": "First step in implementing AI/ML; it is not about the technology"
+        },
+        {
+          "name": "Market research",
+          "detail": "Scan in-depth on what your peers are doing"
+        },
+        {
+          "name": "Financial research",
+          "detail": "Gauge how you would measure the success of AI initiatives"
+        }
       ]
     }
   ]
