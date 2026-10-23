@@ -1,0 +1,14 @@
+{
+  "intro": "Who I am beyond the CV.",
+  "background": "As a child, I became fascinated by computers. I tinkered with them early on, installing, uninstalling and reinstalling operating systems such as Windows, Linux and Ubuntu on my home PC. I used it extensively for gaming and, over time, became obsessed with it. That laid the foundation for choosing Computer Science when I opted for engineering after Class 12.\n\nMy early interest in technology made me the go-to advisor for my entire family, immediate and extended, whenever a device had to be bought, whether a mobile, PC, TV or printer. I realised I enjoyed consulting and the business side of technology, so I did my MBA in Information Technology. That interest in consulting later led to my stint at PwC.",
+  "interests": [
+    {
+      "title": "Travel",
+      "text": "My academic and professional journey has taken me across the length and breadth of India and helped me adapt to varied cultures. I stayed in Hyderabad until engineering, moved to Delhi and Ghaziabad for my MBA, relocated to Kolkata for my first job at Balmer Lawrie, shifted to Chennai for Cognizant, moved to Pune for a project and finally settled in Bengaluru, where I have lived ever since. I have visited the tourist places in and around Bengaluru and made a few international trips, which have given me a broader view of the world."
+    },
+    {
+      "title": "Investing",
+      "text": "I was bitten by the stock-market bug in the post-COVID era. Had I not been a product person, I believe I would have worked in investments. How macroeconomics, financial institutions and government authorities come together to change the way companies operate across sectors has become a favourite pastime of mine."
+    }
+  ]
+}

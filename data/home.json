@@ -1,0 +1,39 @@
+{
+  "eyebrow": "AI Product Leader · Bengaluru",
+  "headline": "Product leader with 16 years taking enterprise platforms from strategy to scale.",
+  "subheadline": "Experience across the Energy and Financial Services verticals, and in IT, Quality and Consulting functions.",
+  "metrics": [
+    {
+      "value": "60%",
+      "company": "Shell",
+      "label": "faster shift-handover summaries",
+      "detail": "Own AI product strategy for a safety-critical portfolio across 30 global assets, and shipped a Gen AI agent into frontline operations that auto-summarises shift reports."
+    },
+    {
+      "value": "4x",
+      "company": "PwC",
+      "label": "scale of a digital quality platform",
+      "detail": "Conceived and scaled a quality platform from tracking 400+ to 1,600+ projects, serving ~40,000 stakeholders globally."
+    },
+    {
+      "value": "260K+",
+      "company": "Cognizant",
+      "label": "associates on 4 enterprise products",
+      "detail": "Built and scaled four internal products, including one that became the most used in a 150+ app ecosystem."
+    }
+  ],
+  "paths": [
+    {
+      "title": "Hiring?",
+      "text": "See my expertise, career history and education.",
+      "label": "See my experience",
+      "link": "/experience"
+    },
+    {
+      "title": "Need help?",
+      "text": "See how I can help with product and AI adoption.",
+      "label": "See services",
+      "link": "/services"
+    }
+  ]
+}

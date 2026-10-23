@@ -1,0 +1,186 @@
+# Pages CMS configuration: https://pagescms.org
+# Sign in at app.pagescms.org with GitHub and open this repository to edit the site through forms.
+media:
+  input: public/uploads
+  output: /uploads
+
+content:
+  - name: settings
+    label: Site settings
+    type: file
+    path: data/settings.json
+    format: json
+    fields:
+      - { name: name, label: Display name, type: string }
+      - { name: fullName, label: Full legal name, type: string }
+      - { name: role, label: Role line, type: string }
+      - { name: location, label: Location, type: string }
+      - { name: email, label: Email, type: string }
+      - { name: linkedin, label: LinkedIn URL, type: string }
+      - { name: siteUrl, label: Website address, type: string }
+      - { name: cv, label: CV (PDF), type: file, description: "Upload a new PDF to replace the CV everywhere. Leave out your phone number." }
+      - { name: photo, label: Headshot, type: image, description: "Portrait photo, ideally 4:5 ratio and at least 800px wide. Leave empty to show initials." }
+      - { name: web3formsKey, label: Web3Forms access key, type: string, description: "Paste the key from web3forms.com to switch on the contact form." }
+      - { name: seoDescription, label: Search engine description, type: text }
+
+  - name: home
+    label: Home
+    type: file
+    path: data/home.json
+    format: json
+    fields:
+      - { name: eyebrow, label: Small line above headline, type: string }
+      - { name: headline, label: Headline, type: text }
+      - { name: subheadline, label: Sub-headline, type: text }
+      - name: metrics
+        label: Proof numbers
+        type: object
+        list: true
+        fields:
+          - { name: value, label: Number, type: string }
+          - { name: company, label: Company, type: string }
+          - { name: label, label: What the number means, type: string }
+          - { name: detail, label: Detail, type: text }
+      - name: paths
+        label: Two paths
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: text, label: Text, type: string }
+          - { name: label, label: Link text, type: string }
+          - { name: link, label: Link, type: string }
+
+  - name: about
+    label: About
+    type: file
+    path: data/about.json
+    format: json
+    fields:
+      - { name: intro, label: Intro line, type: string }
+      - { name: background, label: Background, type: text, description: "Leave a blank line between paragraphs." }
+      - name: interests
+        label: Interests
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: text, label: Text, type: text }
+
+  - name: experience
+    label: Experience
+    type: file
+    path: data/experience.json
+    format: json
+    fields:
+      - { name: intro, label: Intro line, type: string }
+      - name: expertise
+        label: Expertise
+        type: object
+        list: true
+        fields:
+          - { name: area, label: Area, type: string }
+          - { name: items, label: Skills, type: text }
+      - name: roles
+        label: Roles (newest first)
+        type: object
+        list: true
+        fields:
+          - { name: company, label: Company, type: string }
+          - { name: role, label: Title, type: string }
+          - { name: period, label: Period, type: string }
+          - name: highlights
+            label: Highlights
+            type: object
+            list: true
+            fields:
+              - { name: text, label: Highlight, type: text }
+      - name: education
+        label: Education
+        type: object
+        list: true
+        fields:
+          - { name: degree, label: Degree, type: string }
+          - { name: institution, label: Institution, type: string }
+          - { name: score, label: Score, type: string }
+
+  - name: services
+    label: Services
+    type: file
+    path: data/services.json
+    format: json
+    fields:
+      - { name: intro, label: Intro line, type: string }
+      - name: groups
+        label: Audiences
+        type: object
+        list: true
+        fields:
+          - { name: audience, label: Audience, type: string }
+          - { name: summary, label: Summary, type: text }
+          - name: services
+            label: Services
+            type: object
+            list: true
+            fields:
+              - { name: name, label: Service, type: string }
+              - { name: detail, label: Detail (optional), type: string }
+
+  - name: case-studies
+    label: Case studies
+    type: file
+    path: data/case-studies.json
+    format: json
+    fields:
+      - { name: intro, label: Intro line, type: string }
+      - name: studies
+        label: Case studies
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: slug, label: Web address, type: string, description: "Lowercase words joined by hyphens, e.g. my-new-project. Becomes /case-studies/my-new-project" }
+          - { name: company, label: Organisation, type: string }
+          - { name: metric, label: Headline number, type: string }
+          - { name: metricLabel, label: What the number means, type: string }
+          - { name: summary, label: One-line summary, type: text }
+          - { name: problem, label: Business problem, type: text }
+          - { name: solution, label: Solution, type: text }
+          - { name: outcome, label: Outcome, type: text }
+          - name: takeaways
+            label: Key takeaways (optional)
+            type: object
+            list: true
+            fields:
+              - { name: text, label: Takeaway, type: string }
+
+  - name: credentials
+    label: Credentials
+    type: file
+    path: data/credentials.json
+    format: json
+    fields:
+      - { name: intro, label: Intro line, type: string }
+      - name: certifications
+        label: Certifications
+        type: object
+        list: true
+        fields:
+          - { name: name, label: Certification, type: string }
+          - { name: issuer, label: Issuer, type: string }
+      - name: awards
+        label: Recognition
+        type: object
+        list: true
+        fields:
+          - { name: name, label: Award, type: string }
+          - { name: org, label: Organisation, type: string }
+
+  - name: contact
+    label: Contact
+    type: file
+    path: data/contact.json
+    format: json
+    fields:
+      - { name: intro, label: Intro, type: text }
+      - { name: responseNote, label: Response note, type: string }

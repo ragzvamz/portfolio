@@ -1,0 +1,29 @@
+{
+  "intro": "Where I can help, depending on what you need.",
+  "groups": [
+    {
+      "audience": "Hiring managers & recruiters",
+      "summary": "End-to-end product leadership, from long-term vision to a platform running at scale.",
+      "services": [
+        { "name": "Product planning", "detail": "Including setting the long-term product vision." },
+        { "name": "Product roadmap", "detail": "Quarterly and yearly roadmaps." },
+        { "name": "Product strategy", "detail": "Tactical and strategic." },
+        { "name": "Product development", "detail": "Working with leadership and product teams." },
+        { "name": "Product deployment", "detail": "Including platform scaling." },
+        { "name": "Platform integration", "detail": "With other data platforms." }
+      ]
+    },
+    {
+      "audience": "Leaders exploring AI adoption",
+      "summary": "Research, analysis and hands-on validation to decide where AI fits and make it work.",
+      "services": [
+        { "name": "Business analysis", "detail": "" },
+        { "name": "Sector analysis", "detail": "" },
+        { "name": "Market research", "detail": "" },
+        { "name": "Financial research", "detail": "" },
+        { "name": "System testing", "detail": "" },
+        { "name": "User experience design", "detail": "" }
+      ]
+    }
+  ]
+}
