@@ -24,10 +24,18 @@
       "role": "Business Analyst (AI Products, Ensure Safe Production)",
       "period": "Jan 2023 – Present",
       "highlights": [
-        { "text": "Shipped a Gen AI agent in Microsoft Copilot Studio that auto-summarises shift reports, cutting shift-handover summary time by 60%." },
-        { "text": "Own product strategy and roadmap for the Ensure Safe Production portfolio; led global market assessments across 30 assets and 40+ vendors (3 AI-native), turning asset feedback and vendor insights into a prioritised investment roadmap of $2M per year." },
-        { "text": "Built and scaled a Shell-owned risk-visualisation product from 0 to 1 (vision, requirements, alignment, delivery), replacing a well-known, long-standing third-party tool with potential savings of $15K per site per year." },
-        { "text": "Product SME and lead for the S/4HANA transformation at 4 upstream and gas assets; owned requirements, integration readiness and validation for 3 business-critical apps, reducing delivery risk." }
+        {
+          "text": "Shipped a Gen AI agent in Microsoft Copilot Studio that auto-summarises shift reports, cutting shift-handover summary time by 60%."
+        },
+        {
+          "text": "Own product strategy and roadmap for the Ensure Safe Production portfolio; led global market assessments across 30 assets and 40+ vendors (3 AI-native), turning asset feedback and vendor insights into a prioritised investment roadmap of $2M per year."
+        },
+        {
+          "text": "Built and scaled a Shell-owned risk-visualisation product from 0 to 1 (vision, requirements, alignment, delivery), replacing a well-known, long-standing third-party tool with potential savings of $15K per site per year."
+        },
+        {
+          "text": "Product SME and lead for the S/4HANA transformation at 4 upstream and gas assets; owned requirements, integration readiness and validation for 3 business-critical apps, reducing delivery risk."
+        }
       ]
     },
     {
@@ -35,11 +43,21 @@
       "role": "Product Manager",
       "period": "Feb 2019 – Jan 2023",
       "highlights": [
-        { "text": "Conceived and scaled the PMQA quality platform 4x, from 400+ to 1,600+ projects, serving ~40,000 stakeholders across global PwC." },
-        { "text": "Introduced an ML engine that flags risky projects, cutting Quality Associates' audit cycle time by 30% while improving accuracy." },
-        { "text": "Led a 15-member product team through 10 product increments, 8 releases and 20+ sprints." },
-        { "text": "Integrated 12 systems surfacing 200+ KPIs on 50+ Power BI dashboards used by project teams to monitor project quality." },
-        { "text": "Turned Quality leadership's vision into a 220+ story backlog and drove global feature adoption through demos and webcasts." }
+        {
+          "text": "Conceived and scaled the PMQA quality platform 4x, from 400+ to 1,600+ projects, serving ~40,000 stakeholders across global PwC."
+        },
+        {
+          "text": "Introduced an ML engine that flags risky projects, cutting Quality Associates' audit cycle time by 30% while improving accuracy."
+        },
+        {
+          "text": "Led a 15-member product team through 10 product increments, 8 releases and 20+ sprints."
+        },
+        {
+          "text": "Integrated 12 systems surfacing 200+ KPIs on 50+ Power BI dashboards used by project teams to monitor project quality."
+        },
+        {
+          "text": "Turned Quality leadership's vision into a 220+ story backlog and drove global feature adoption through demos and webcasts."
+        }
       ]
     },
     {
@@ -47,7 +65,9 @@
       "role": "Senior Manager – Strategy",
       "period": "Dec 2018 – Feb 2019",
       "highlights": [
-        { "text": "Assessed five growth areas using competitive intelligence, shaping an expansion roadmap that targeted a 25% market-share gain." }
+        {
+          "text": "Assessed five growth areas using competitive intelligence, shaping an expansion roadmap that targeted a 25% market-share gain."
+        }
       ]
     },
     {
@@ -55,10 +75,18 @@
       "role": "Manager – Business Solutions",
       "period": "Jan 2012 – Nov 2018",
       "highlights": [
-        { "text": "Scaled 4 internal enterprise products to 260K+ associates, including one that became the most used in a 150+ app ecosystem." },
-        { "text": "Led 200+ M&A due-diligence assessments for the BFS vertical on financial and technology fit; advanced 15+ deals to final stage." },
-        { "text": "Evaluated 300+ FinTech startups across blockchain, payments and compliance to source strategic partnerships." },
-        { "text": "Scrum Master for 50+ sprints, improving release cadence and delivery reliability." }
+        {
+          "text": "Scaled 4 internal enterprise products to 260K+ associates, including one that became the most used in a 150+ app ecosystem."
+        },
+        {
+          "text": "Led 200+ M&A due-diligence assessments for the BFS vertical on financial and technology fit; advanced 15+ deals to final stage."
+        },
+        {
+          "text": "Evaluated 300+ FinTech startups across blockchain, payments and compliance to source strategic partnerships."
+        },
+        {
+          "text": "Scrum Master for 50+ sprints, improving release cadence and delivery reliability."
+        }
       ]
     },
     {
@@ -66,12 +94,30 @@
       "role": "Assistant Manager – Corporate IT",
       "period": "Jun 2010 – Dec 2011",
       "highlights": [
-        { "text": "Built a digital recruitment platform, reducing onboarding time by 90%." }
+        {
+          "text": "Built a digital recruitment platform, reducing onboarding time by 90%."
+        }
       ]
     }
   ],
   "education": [
-    { "degree": "MBA (IT & Marketing)", "institution": "IMT Ghaziabad", "score": "GPA 8.2/10" },
-    { "degree": "BE (Computer Science)", "institution": "Osmania University", "score": "84.9%" }
+    {
+      "degree": "MBA (IT & Marketing)",
+      "institution": "IMT Ghaziabad",
+      "score": "GPA 8.2/10"
+    },
+    {
+      "degree": "BE (Computer Science)",
+      "institution": "Osmania University",
+      "score": "84.9%"
+    },
+    {
+      "degree": "Business Analytics with Tableau",
+      "institution": "Udacity"
+    },
+    {
+      "degree": "Artificial Intelligence - Machine Learning",
+      "institution": "Udacity"
+    }
   ]
 }
