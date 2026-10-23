@@ -2,19 +2,19 @@
   "intro": "How I approach problems, in six projects.",
   "studies": [
     {
-      "slug": "gen-ai-shift-report-agent",
       "title": "Gen AI Shift Report Agent",
+      "slug": "gen-ai-shift-report-agent",
       "company": "Shell",
       "metric": "60%",
       "metricLabel": "less time spent on shift-handover summaries",
       "summary": "A Copilot Studio agent that turns long end-of-shift reports into an actionable checklist.",
-      "problem": "Frontline operators wrote customisable end-of-shift reports to brief incoming crews. In complex plants these reports grew too long, turning shift meetings into report-reading sessions that ran for hours. Teams talked about what had happened instead of what needed attention.",
+      "problem": "Frontline operators generated customisable end-of-shift reports to brief incoming crews. In complex plants these reports grew too long, turning shift meetings into report-reading sessions that ran for hours. Teams talked about what had happened instead of what needed attention.",
       "solution": "A Power Automate workflow detects each new shift report. I built a Gen AI agent in Microsoft Copilot Studio that parses the report through built-in connectors and passes it to the agent. A Prompt tool, carrying my instructions, summarises the report into an actionable checklist, which integrated email connectors forward to users.",
       "outcome": "I vibe-coded, with a lot of research, a clean working agent with three components: an agent flow, a prompt tool and an email connector. Its actionable summary cut shift-handover summary time by 60%."
     },
     {
-      "slug": "enterprise-risk-visualisation-product",
       "title": "Enterprise Risk Visualisation Product",
+      "slug": "enterprise-risk-visualisation-product",
       "company": "Shell",
       "metric": "$15K",
       "metricLabel": "potential savings per site per year",
@@ -24,8 +24,8 @@
       "outcome": "With a product team, I designed and deployed a fit-for-purpose DIY solution and piloted it at one asset. I then demoed it to other interested assets and worked with them to scale the solution globally."
     },
     {
-      "slug": "enterprise-data-integration",
       "title": "Enterprise Data Integration",
+      "slug": "enterprise-data-integration",
       "company": "Shell",
       "metric": "$500K",
       "metricLabel": "in efficiency savings",
@@ -35,8 +35,8 @@
       "outcome": "Realised $500K in efficiency savings by automating critical process metrics and the related reporting across multiple assets."
     },
     {
-      "slug": "enterprise-quality-platform",
       "title": "Enterprise Quality Platform",
+      "slug": "enterprise-quality-platform",
       "company": "PwC",
       "metric": "4x",
       "metricLabel": "growth in projects tracked",
@@ -46,8 +46,8 @@
       "outcome": "The platform let the Quality CoE track quality closely as project volume grew 4x and keep 40,000+ project stakeholders informed. Beyond diagnostic monitoring, its machine-learning models flagged projects likely to become risky."
     },
     {
-      "slug": "enterprise-app-ecosystem",
       "title": "Enterprise App Ecosystem",
+      "slug": "enterprise-app-ecosystem",
       "company": "Cognizant",
       "metric": "260K+",
       "metricLabel": "associates served",
@@ -57,8 +57,8 @@
       "outcome": "Scaled the four apps to 260K+ associates, and one became the most visited in a 150+ app ecosystem."
     },
     {
-      "slug": "enterprise-recruitment-platform",
       "title": "Enterprise Recruitment Platform",
+      "slug": "enterprise-recruitment-platform",
       "company": "Balmer Lawrie",
       "metric": "90%",
       "metricLabel": "faster onboarding of new recruits",
